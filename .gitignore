@@ -364,7 +364,9 @@ FodyWeavers.xsd
 
 # Rider IDE
 .idea/
-/HPO.API/appsettings.Development.json
 
 # Mac
 .DS_Store
+
+API/appsettings.Development.json
+API/appsettings.json
