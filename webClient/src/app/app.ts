@@ -1,11 +1,13 @@
 import {Component, inject, OnInit, signal} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {NgOptimizedImage} from '@angular/common';
+import {Nav} from '../layouts/nav/nav';
 
 @Component({
   selector: 'app-root',
   imports: [
-    NgOptimizedImage
+    NgOptimizedImage,
+    Nav
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
