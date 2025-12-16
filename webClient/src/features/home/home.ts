@@ -12,8 +12,8 @@ import {Register} from '../accounts/register/register';
 export class Home {
   protected registerMode = signal(false);
 
-  showRester() {
-    this.registerMode.set(true);
+  showRester(value: boolean) {
+    this.registerMode.set(value);
   }
 
 }
