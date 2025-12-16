@@ -5,12 +5,14 @@ import {Nav} from '../layouts/nav/nav';
 import {AccountService} from '../core/services/account-service';
 import {lastValueFrom} from 'rxjs';
 import {User} from '../types/user';
+import {Home} from '../features/home/home';
 
 @Component({
   selector: 'app-root',
   imports: [
     NgOptimizedImage,
-    Nav
+    Nav,
+    Home
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
